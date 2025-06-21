@@ -1,74 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/static/style.css">
+  <title>{{ name }} - Currículo</title>
 </head>
 
 <body>
-  <div class="header1">
-      <div class="title">
-        <div class="name">{{ name }}</div>
-        <div class="role">{{ role }}</div>
-      </div>
+  <div class="header">
+    <div class="title">
+      <h1>{{ name }}</h1>
+      <h2>{{ role }}</h2>
+    </div>
   </div>
 
-  <div class="division">
+  <div class="container">
     <div class="sidebar">
+      <div class="profile">
         <img id="photo" src="static/img/mateus-hack.jpeg">
-        <div class="link">{{ name }}</div>
-        <div class="link">in/matmarqs</div>
-        <div class="link">github.com/matmarqs</div>
-        <div class="link">oi</div>
-        <div class="link">oi</div>
-        <div class="link">oi</div>
-        <div class="link">oi</div>
-        <div class="link">oi</div>
-        <div class="link">oi</div>
+        <div class="contact-info">
+          <h3>CONTATO</h3>
+          <div class="contact-item">
+            <span class="contact-label">LinkedIn:</span>
+            <span>in/matmarqs</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">GitHub:</span>
+            <span>github.com/matmarqs</span>
+          </div>
+          <!-- Add more contact items as needed -->
+        </div>
+      </div>
+      
+      <div class="section">
+        <h3>COMPETÊNCIAS</h3>
+        <div class="skills">
+          {% for skill in skills %}
+          <div class="skill-tag">{{ skill }}</div>
+          {% endfor %}
+        </div>
+      </div>
+      
+      <div class="section">
+        <h3>IDIOMAS</h3>
+        <div class="language">
+          <span>Português</span>
+          <div class="proficiency"><div class="level" style="width:100%"></div></div>
+        </div>
+        <div class="language">
+          <span>Inglês</span>
+          <div class="proficiency"><div class="level" style="width:80%"></div></div>
+        </div>
+        <!-- Add more languages as needed -->
+      </div>
     </div>
 
     <div class="content">
-      <h1>{{ name }}</h1>
-      <h2>{{ role }}</h2>
-      <p>{{ summary }}</p>
-
-      <h3>Skills</h3>
-      <ul>
-        {% for skill in skills %}
-        <li>{{ skill }}</li>
+      <div class="section">
+        <h3>PERFIL PROFISSIONAL</h3>
+        <p>{{ summary }}</p>
+      </div>
+      
+      <div class="section">
+        <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+        {% for job in experience %}
+        <div class="experience-item">
+          <div class="experience-header">
+            <span class="company">{{ job.company }}</span>
+            <span class="period">{{ job.period }}</span>
+          </div>
+          <div class="role">{{ job.role }}</div>
+          <p>{{ job.details }}</p>
+        </div>
         {% endfor %}
-      </ul>
-
-      <h3>Experience</h3>
-      {% for job in experience %}
-      <p><strong>{{ job.role }}</strong> at {{ job.company }} ({{ job.period }})<br>
-        {{ job.details }}</p>
-      {% endfor %}
-
-      <h3>Education</h3>
-      {% for edu in education %}
-      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
-      {% endfor %}
-
-      <h3>Education</h3>
-      {% for edu in education %}
-      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
-      {% endfor %}
-
-      <h3>Education</h3>
-      {% for edu in education %}
-      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
-      {% endfor %}
-
-      <h3>Education</h3>
-      {% for edu in education %}
-      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
-      {% endfor %}
+      </div>
+      
+      <div class="section">
+        <h3>FORMAÇÃO ACADÊMICA</h3>
+        {% for edu in education %}
+        <div class="education-item">
+          <div class="education-header">
+            <span class="degree">{{ edu.degree }}</span>
+            <span class="year">{{ edu.year }}</span>
+          </div>
+          <div class="institution">{{ edu.institution }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      
+      <div class="section">
+        <h3>CERTIFICAÇÕES</h3>
+        <div class="certification">
+          <div class="cert-name">Certificação em Segurança Ofensiva</div>
+          <div class="cert-issuer">Instituição - 2023</div>
+        </div>
+        <!-- Add more certifications as needed -->
+      </div>
     </div>
-
   </div>
-
 </body>
-
 </html>
