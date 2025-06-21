@@ -1,0 +1,21 @@
+{
+  "name": "Mateus Marques",
+  "role": "Cybersecurity Analyst",
+  "summary": "Passionate about offensive security, Linux, and ethical hacking.",
+  "skills": ["Red Teaming", "Pentesting", "Python", "Linux", "Network Security"],
+  "experience": [
+    {
+      "company": "CyberOps Inc.",
+      "role": "Junior Red Teamer",
+      "period": "2023 - Present",
+      "details": "Performed internal and external pentests, wrote detailed reports, and collaborated with blue team."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Physics",
+      "institution": "USP",
+      "year": "2022"
+    }
+  ]
+}
