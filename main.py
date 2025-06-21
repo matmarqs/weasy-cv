@@ -1,23 +1,58 @@
 from weasyprint import HTML
 from jinja2 import Environment, FileSystemLoader
-import json
-from pathlib import Path
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import time, json, os
+from typing import cast
 
-# Load data from JSON
-with open("data/cyber.json", "r") as f:
-    data = json.load(f)
+TEMPLATE_DIR = "templates"
+TEMPLATE_NAME = "resume.html"
+DATA_FILE = "data/cyber.json"
+STYLESHEET = "static/style.css"
+FONTAWESOME = "static/fontawesome/css/all.min.css"
+OUTPUT_FILE = "resume.pdf"
+WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
+IGNORE_DIRS = ["static/fontawesome"]
 
-# Setup Jinja2 environment
-env = Environment(loader=FileSystemLoader("templates"))
-template = env.get_template("resume.html")
+class PDFBuilder(FileSystemEventHandler):
+    def __init__(self):
+        self.env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
+        self.build_pdf()
 
-# Render HTML with data
-rendered_html = template.render(**data)
+    def on_modified(self, event):
+        path = os.path.normpath(event.src_path)
+        # Ignorar se o caminho contiver qualquer pasta em IGNORE_DIRS
+        if any(ignored in path for ignored in IGNORE_DIRS):
+            return
+        if cast(str, path).lower().endswith(WATCH_EXTENSIONS):
+            print(f"Change detected in {path}, regenerating PDF...")
+            self.build_pdf()
 
-# Generate PDF
-HTML(string=rendered_html, base_url=".").write_pdf(
-    "resume.pdf",
-    stylesheets=["static/style.css"]
-)
+    def build_pdf(self):
+        try:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
 
-print("PDF generated: resume.pdf")
+            template = self.env.get_template(TEMPLATE_NAME)
+            html = template.render(**data)
+
+            HTML(string=html, base_url=".").write_pdf(
+                OUTPUT_FILE,
+                stylesheets=[STYLESHEET, FONTAWESOME]
+            )
+            print(f"PDF gerado: {OUTPUT_FILE}")
+        except Exception as e:
+            print("Erro ao gerar o PDF:", e)
+
+if __name__ == "__main__":
+    print("Preview live: watching for changes...")
+    observer = Observer()
+    observer.schedule(PDFBuilder(), path=".", recursive=True)
+    observer.start()
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
