@@ -9,6 +9,7 @@ TEMPLATE_DIR = "templates"
 TEMPLATE_NAME = "resume.html"
 DATA_FILE = "data/cyber.json"
 STYLESHEET = "static/style.css"
+FONTAWESOME = "static/fontawesome/css/all.min.css"
 OUTPUT_FILE = "resume.pdf"
 WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
 
@@ -33,7 +34,7 @@ class PDFBuilder(FileSystemEventHandler):
 
             HTML(string=html, base_url=".").write_pdf(
                 OUTPUT_FILE,
-                stylesheets=[STYLESHEET]
+                stylesheets=[STYLESHEET, FONTAWESOME]
             )
             print(f"PDF gerado: {OUTPUT_FILE}")
         except Exception as e:

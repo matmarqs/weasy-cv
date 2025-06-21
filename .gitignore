@@ -1,3 +1,6 @@
+# ignore .zip
+**/*.zip
+
 # temporary ignore style/img files
 static/img/
 
