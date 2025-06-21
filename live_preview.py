@@ -2,7 +2,7 @@ from weasyprint import HTML
 from jinja2 import Environment, FileSystemLoader
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import time, json
+import time, json, os
 from typing import cast
 
 TEMPLATE_DIR = "templates"
@@ -12,6 +12,7 @@ STYLESHEET = "static/style.css"
 FONTAWESOME = "static/fontawesome/css/all.min.css"
 OUTPUT_FILE = "resume.pdf"
 WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
+IGNORE_DIRS = ["static/fontawesome"]
 
 class PDFBuilder(FileSystemEventHandler):
     def __init__(self):
@@ -19,8 +20,12 @@ class PDFBuilder(FileSystemEventHandler):
         self.build_pdf()
 
     def on_modified(self, event):
-        if cast(str, event.src_path).lower().endswith(WATCH_EXTENSIONS):
-            print(f"Change detected in {event.src_path}, regenerating PDF...")
+        path = os.path.normpath(event.src_path)
+        # Ignorar se o caminho contiver qualquer pasta em IGNORE_DIRS
+        if any(ignored in path for ignored in IGNORE_DIRS):
+            return
+        if cast(str, path).lower().endswith(WATCH_EXTENSIONS):
+            print(f"Change detected in {path}, regenerating PDF...")
             self.build_pdf()
 
     def build_pdf(self):
@@ -28,7 +33,6 @@ class PDFBuilder(FileSystemEventHandler):
             with open(DATA_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            # Recarrega o template sempre
             template = self.env.get_template(TEMPLATE_NAME)
             html = template.render(**data)
 
