@@ -1,3 +1,6 @@
+# temporary ignore style/img files
+static/img/
+
 # ignore pdf files
 **/*.pdf
 

@@ -1,4 +1,40 @@
+/* CSS RESET */
+
+@page {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full-width header with no spacing */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F2937;
+  color: white;
+  padding: 16px 40px;
+  /* Optional: adds spacing inside the header */
+}
+
+#photo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 50%;
+}
+
+.content {
   font-family: Arial, sans-serif;
   margin: 40px;
   color: #333;

@@ -10,6 +10,7 @@ TEMPLATE_NAME = "resume.html"
 DATA_FILE = "data/cyber.json"
 STYLESHEET = "static/style.css"
 OUTPUT_FILE = "resume.pdf"
+WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
 
 class PDFBuilder(FileSystemEventHandler):
     def __init__(self):
@@ -17,7 +18,7 @@ class PDFBuilder(FileSystemEventHandler):
         self.build_pdf()
 
     def on_modified(self, event):
-        if cast(str, event.src_path).endswith((".html", ".json", ".css")):
+        if cast(str, event.src_path).lower().endswith(WATCH_EXTENSIONS):
             print(f"Change detected in {event.src_path}, regenerating PDF...")
             self.build_pdf()
 
