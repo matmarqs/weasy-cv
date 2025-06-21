@@ -1,6 +1,6 @@
 {
   "name": "Mateus Marques",
-  "role": "Cybersecurity Analyst",
+  "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
   "summary": "Passionate about offensive security, Linux, and ethical hacking.",
   "skills": ["Red Teaming", "Pentesting", "Python", "Linux", "Network Security"],
   "experience": [
@@ -17,5 +17,16 @@
       "institution": "USP",
       "year": "2022"
     }
+  ],
+  "contacts": [
+    {"type": "Email", "value": "mateus@example.com"},
+    {"type": "Phone", "value": "+55 (11) 99999-9999"}
+  ],
+  "languages": [
+    {"name": "Português", "proficiency": 100},
+    {"name": "Inglês", "proficiency": 80}
+  ],
+  "certifications": [
+    {"name": "Certificação em Segurança Ofensiva", "issuer": "Instituição", "year": "2023"}
   ]
 }

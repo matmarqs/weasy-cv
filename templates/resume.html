@@ -7,35 +7,66 @@
 </head>
 
 <body>
-
-  <div class="header">
-      <img id="photo" src="static/img/mateus-hack.jpeg" height="20px" width="20px">
-      <div>{{ role }}</div>
-      <div>eai</div>
+  <div class="header1">
+      <div class="title">
+        <div class="name">{{ name }}</div>
+        <div class="role">{{ role }}</div>
+      </div>
   </div>
 
-  <div class="content">
-    <h1>{{ name }}</h1>
-    <h2>{{ role }}</h2>
-    <p>{{ summary }}</p>
+  <div class="division">
+    <div class="sidebar">
+        <img id="photo" src="static/img/mateus-hack.jpeg">
+        <div class="link">{{ name }}</div>
+        <div class="link">in/matmarqs</div>
+        <div class="link">github.com/matmarqs</div>
+        <div class="link">oi</div>
+        <div class="link">oi</div>
+        <div class="link">oi</div>
+        <div class="link">oi</div>
+        <div class="link">oi</div>
+        <div class="link">oi</div>
+    </div>
 
-    <h3>Skills</h3>
-    <ul>
-      {% for skill in skills %}
-      <li>{{ skill }}</li>
+    <div class="content">
+      <h1>{{ name }}</h1>
+      <h2>{{ role }}</h2>
+      <p>{{ summary }}</p>
+
+      <h3>Skills</h3>
+      <ul>
+        {% for skill in skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+
+      <h3>Experience</h3>
+      {% for job in experience %}
+      <p><strong>{{ job.role }}</strong> at {{ job.company }} ({{ job.period }})<br>
+        {{ job.details }}</p>
       {% endfor %}
-    </ul>
 
-    <h3>Experience</h3>
-    {% for job in experience %}
-    <p><strong>{{ job.role }}</strong> at {{ job.company }} ({{ job.period }})<br>
-      {{ job.details }}</p>
-    {% endfor %}
+      <h3>Education</h3>
+      {% for edu in education %}
+      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
+      {% endfor %}
 
-    <h3>Education</h3>
-    {% for edu in education %}
-    <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
-    {% endfor %}
+      <h3>Education</h3>
+      {% for edu in education %}
+      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
+      {% endfor %}
+
+      <h3>Education</h3>
+      {% for edu in education %}
+      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
+      {% endfor %}
+
+      <h3>Education</h3>
+      {% for edu in education %}
+      <p><strong>{{ edu.degree }}</strong>, {{ edu.institution }} ({{ edu.year }})</p>
+      {% endfor %}
+    </div>
+
   </div>
 
 </body>
