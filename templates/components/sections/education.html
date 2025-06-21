@@ -1,0 +1,12 @@
+<div class="section">
+  <h3>FORMAÇÃO ACADÊMICA</h3>
+  {% for edu in education %}
+  <div class="education-item">
+    <div class="education-header">
+      <span class="degree">{{ edu.degree }}</span>
+      <span class="year">{{ edu.year }}</span>
+    </div>
+    <div class="institution">{{ edu.institution }}</div>
+  </div>
+  {% endfor %}
+</div>

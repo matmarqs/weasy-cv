@@ -1,0 +1,23 @@
+<div class="contact-info">
+  <h3>CONTATO</h3>
+  {% for contact in contacts %}
+  <div class="contact-item">
+    {% if contact.type == "LinkedIn" %}
+    <i class="fab fa-linkedin"></i>
+    <a href="https://linkedin.com/in/{{ contact.value }}" target="_blank">{{ contact.value }}</a>
+    {% elif contact.type == "GitHub" %}
+    <i class="fab fa-github"></i>
+    <a href="https://github.com/{{ contact.value }}" target="_blank">{{ contact.value }}</a>
+    {% elif contact.type == "Email" %}
+    <i class="fas fa-envelope"></i>
+    <a href="mailto:{{ contact.value }}">{{ contact.value }}</a>
+    {% elif contact.type == "Phone" %}
+    <i class="fas fa-phone"></i>
+    <span>{{ contact.value }}</span>
+    {% else %}
+    <i class="fas fa-circle"></i>
+    <span>{{ contact.value }}</span>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

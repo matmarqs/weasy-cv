@@ -1,0 +1,9 @@
+<div class="section">
+  <h3>CERTIFICAÇÕES</h3>
+  {% for cert in certifications %}
+  <div class="certification">
+    <div class="cert-name">{{ cert.name }}</div>
+    <div class="cert-issuer">{{ cert.issuer }} - {{ cert.year }}</div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+<div class="section">
+  <h3>IDIOMAS</h3>
+  {% for language in languages %}
+  <div class="language">
+    <span>{{ language.name }}</span>
+    <div class="proficiency">
+      <div class="level" style="width:{{ language.proficiency }}%"></div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

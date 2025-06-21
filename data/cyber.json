@@ -2,16 +2,44 @@
   "name": "Mateus Marques",
   "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
   "summary": "Passionate about offensive security, Linux, and ethical hacking.",
-  "skills": ["Red Teaming", "Pentesting", "Python", "Linux", "Network Security"],
+  "skills": [
+    "Red Teaming",
+    "Pentesting",
+    "Python",
+    "Linux",
+    "Network Security",
+    "JavaScript",
+    "PostgreSQL",
+    "Jenkins",
+    "Git",
+    "Bash",
+    "PowerShell"
+  ],
   "experience": [
     {
       "company": "CyberOps Inc.",
       "role": "Junior Red Teamer",
       "period": "2023 - Present",
       "details": "Performed internal and external pentests, wrote detailed reports, and collaborated with blue team."
+    },
+    {
+      "company": "Grupo Natureza",
+      "role": "Estagiário Desenvolvedor",
+      "period": "Mar 2025 - Agora",
+      "details": "Performed internal and external pentests, wrote detailed reports, and collaborated with blue team."
     }
   ],
   "education": [
+    {
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "institution": "Faculdade Anhanguera",
+      "year": "2025"
+    },
+    {
+      "degree": "M.Sc. in Physics",
+      "institution": "USP",
+      "year": "2024"
+    },
     {
       "degree": "B.Sc. in Physics",
       "institution": "USP",
@@ -20,13 +48,19 @@
   ],
   "contacts": [
     {"type": "Email", "value": "mateus@example.com"},
-    {"type": "Phone", "value": "+55 (11) 99999-9999"}
+    {"type": "Phone", "value": "+55 (11) 99999-9999"},
+    {"type": "LinkedIn", "value": "in/matmarqs"},
+    {"type": "GitHub", "value": "matmarqs"}
   ],
   "languages": [
     {"name": "Português", "proficiency": 100},
-    {"name": "Inglês", "proficiency": 80}
+    {"name": "Inglês", "proficiency": 100},
+    {"name": "Japonês", "proficiency": 10},
+    {"name": "Mandarim", "proficiency": 5}
   ],
   "certifications": [
-    {"name": "Certificação em Segurança Ofensiva", "issuer": "Instituição", "year": "2023"}
+    {"name": "Certificação em Segurança Ofensiva", "issuer": "HackTheBox", "year": "2023"},
+    {"name": "Certificação Google Cybersecurity", "issuer": "Coursera", "year": "2024"},
+    {"name": "Desenvolvimento Full-Stack em JavaScript", "issuer": "The Odin Project", "year": "2025"}
   ]
 }
