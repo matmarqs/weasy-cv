@@ -3,27 +3,79 @@
   {% for edu in education %}
   <div class="education-item">
     <div class="education-header">
-      <span class="degree">{{ edu.degree }}</span>
-      <span class="year">{{ edu.year }}</span>
+      <div class="education-info">
+        <div class="degree">{{ edu.degree }}</div>
+        <div class="institution">{{ edu.institution }} | {{ edu.year }}</div>
+        {% if edu.description %}
+        <div class="education-description">{{ edu.description }}</div>
+        {% endif %}
+      </div>
+      {% if edu.img %}
+      <img class="education-image" src="{{ edu.img }}">
+      {% endif %}
     </div>
-    <div class="institution">{{ edu.institution }}</div>
   </div>
   {% endfor %}
 </div>
 
 <style>
   .education-item {
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .education-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
   }
 
   .education-header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
     margin-bottom: 0.3rem;
   }
 
-  .institution {
-    font-style: italic;
-    color: #6b7280;
+  .education-info {
+    flex: 1;
   }
+
+  .degree {
+    font-weight: 600;
+    color: #1F2937;
+    font-size: 0.7rem; /* Fonte menor */
+  }
+
+  .institution {
+    font-weight: 500;
+    color: #4b5563;
+    font-style: italic;
+    font-size: 0.7rem; /* Fonte menor */
+    margin: 0.1rem 0;
+  }
+
+  .education-description {
+    color: #6b7280;
+    font-size: 0.7rem; /* Fonte menor */
+    line-height: 1.4;
+    margin-top: 0.3rem;
+  }
+
+  .education-description a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .education-image {
+    height: auto; /* Tamanho reduzido */
+    width: 48px;
+  }
+
+  .education-period {
+    font-size: 0.8rem; /* Fonte menor */
+    color: #6b7280;
+    font-weight: 400;
+  }
+  
 </style>

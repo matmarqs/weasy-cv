@@ -1,24 +1,81 @@
 <div class="section">
-  <h3>CERTIFICAÇÕES</h3>
+  <h3>CURSOS E CERTIFICAÇÕES</h3>
   {% for cert in certifications %}
-  <div class="certification">
-    <div class="cert-name">{{ cert.name }}</div>
-    <div class="cert-issuer">{{ cert.issuer }} - {{ cert.year }}</div>
+  <div class="cert-item">
+    <div class="cert-header">
+      <div class="cert-info">
+        <div class="cert-degree">{{ cert.degree }}</div>
+        <div class="cert-institution">{{ cert.institution }} | {{ cert.year }}</div>
+        {% if cert.description %}
+        <div class="cert-description">{{ cert.description }}</div>
+        {% endif %}
+      </div>
+      {% if cert.img %}
+      <img class="cert-image" src="{{ cert.img }}">
+      {% endif %}
+    </div>
   </div>
   {% endfor %}
 </div>
 
 <style>
-  .certification {
+  .cert-item {
     margin-bottom: 0.8rem;
+    border-bottom: 1px solid #e5e7eb;
   }
 
-  .cert-name {
+  .cert-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .cert-info {
+    flex: 1;
+  }
+
+  .cert-degree {
     font-weight: 600;
+    color: #1F2937;
+    font-size: 0.7rem; /* Fonte menor */
   }
 
-  .cert-issuer {
-    color: #6b7280;
-    font-size: 0.9rem;
+  .cert-institution {
+    font-weight: 500;
+    color: #4b5563;
+    font-style: italic;
+    font-size: 0.7rem; /* Fonte menor */
+    margin: 0.1rem 0;
   }
+
+  .cert-description {
+    color: #6b7280;
+    font-size: 0.7rem; /* Fonte menor */
+    line-height: 1.4;
+    margin-top: 0.3rem;
+  }
+
+  .cert-institution a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  .cert-image {
+    height: auto; /* Tamanho reduzido */
+    width: 48px;
+  }
+
+  .cert-period {
+    font-size: 0.8rem; /* Fonte menor */
+    color: #6b7280;
+    font-weight: 400;
+  }
+  
 </style>

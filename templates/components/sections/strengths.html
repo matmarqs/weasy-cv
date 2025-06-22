@@ -1,0 +1,14 @@
+<div class="section">
+  <h3>PONTOS FORTES</h3>
+  {% for strength in strengths %}
+  <div class="strength">
+    <span>{{ strength }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .strength {
+    margin-bottom: 0.2rem;
+  }
+</style>

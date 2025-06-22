@@ -1,0 +1,27 @@
+{% for contact in contacts %}
+<span class="newcontact-item">
+    <i class="{{ contact.icon }}"></i>
+    <a href="{{ contact.href }}">{{ contact.value }}</a>
+</span>
+{% endfor %}
+
+<style>
+  .newcontact-item {
+    margin-right: 16px;
+  }
+
+  .newcontact-item i {
+    width: 16px;
+    text-align: center;
+    color: white;
+  }
+
+  .newcontact-item a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .newcontact-item a:hover {
+    text-decoration: underline;
+  }
+</style>

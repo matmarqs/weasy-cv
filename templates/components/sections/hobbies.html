@@ -1,0 +1,14 @@
+<div class="section">
+  <h3>HOBBIES</h3>
+  {% for hobby in hobbies %}
+  <div class="hobby">
+    <span>{{ hobby }}</span>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .hobby {
+    margin-bottom: 0.2rem;
+  }
+</style>
