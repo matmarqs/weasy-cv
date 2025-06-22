@@ -1,11 +1,13 @@
+{% if skills %}
 <div class="section">
-  <h3>COMPETÊNCIAS</h3>
+  <h3>{{ skills.header }}</h3>
   <div class="skills">
-    {% for skill in skills %}
+    {% for skill in skills.list %}
     <div class="skill-tag">{{ skill }}</div>
     {% endfor %}
   </div>
 </div>
+{% endif %}
 
 <style>
   .skills {
@@ -19,7 +21,7 @@
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 12px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     white-space: nowrap;
   }
 </style>

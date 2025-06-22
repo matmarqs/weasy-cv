@@ -1,6 +1,7 @@
+{% if experience %}
 <div class="section">
-  <h3>EXPERIÊNCIA PROFISSIONAL</h3>
-  {% for job in experience %}
+  <h3>{{ experience.header }}</h3>
+  {% for job in experience.list %}
   <div class="experience-item">
     <div class="experience-header">
       <span class="company">{{ job.company }}</span>
@@ -11,6 +12,7 @@
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <style>
   .experience-item {

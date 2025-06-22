@@ -1,6 +1,7 @@
+{% if certifications %}
 <div class="section">
-  <h3>CURSOS E CERTIFICAÇÕES</h3>
-  {% for cert in certifications %}
+  <h3>{{ certifications.header }}</h3>
+  {% for cert in certifications.list %}
   <div class="cert-item">
     <div class="cert-header">
       <div class="cert-info">
@@ -17,6 +18,7 @@
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <style>
   .cert-item {

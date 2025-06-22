@@ -1,6 +1,7 @@
+{% if education %}
 <div class="section">
-  <h3>FORMAÇÃO ACADÊMICA</h3>
-  {% for edu in education %}
+  <h3>{{ education.header }}</h3>
+  {% for edu in education.list %}
   <div class="education-item">
     <div class="education-header">
       <div class="education-info">
@@ -17,6 +18,7 @@
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <style>
   .education-item {

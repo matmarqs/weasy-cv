@@ -1,4 +1,6 @@
+{% if aboutme %}
 <div class="section">
-  <h3>SOBRE MIM</h3>
-  <p>{{ summary }}</p>
+  <h3>{{ aboutme.header }}</h3>
+  <p>{{ aboutme.text }}</p>
 </div>
+{% endif %}

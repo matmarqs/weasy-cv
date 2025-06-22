@@ -1,8 +1,11 @@
 {
+
   "name": "Mateus Marques",
+
   "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
+
   "photo": "static/img/mateus-hack.jpeg",
-  "summary": "Sou bacharel e mestre em Física pela USP e atualmente curso Análise e Desenvolvimento de Sistemas. Tenho perfil analítico, sou movido por desafios e tenho um grande interesse em cibersegurança. No tempo livre, me dedico ao estudo de segurança ofensiva em plataformas como HackTheBox e CTFs, com o objetivo de migrar para a área de Red Team.",
+
   "contacts": [
     {
       "icon": "fab fa-linkedin",
@@ -30,97 +33,122 @@
     }
   ],
 
-  "skills": [
-    "Cibersegurança",
-    "Linux",
-    "Python",
-    "Redes de Computadores",
-    "JavaScript",
-    "C",
-    "Git",
-    "PostgreSQL",
-    "CI/CD",
-    "Jenkins",
-    "Bash",
-    "PowerShell",
-    "OWASP",
-    "Inglês Avançado"
-  ],
+  "aboutme": {
+    "header": "SOBRE MIM",
+    "text": "Sou bacharel e mestre em Física pela USP e atualmente curso Análise e Desenvolvimento de Sistemas. Tenho perfil analítico, sou movido por desafios e tenho um grande interesse em cibersegurança. No tempo livre, me dedico ao estudo de segurança ofensiva em plataformas como HackTheBox e CTFs, com o objetivo de migrar para a área de Red Team."
+  },
 
-  "experience": [
-    {
-      "company": "Polypus Labs",
-      "role": "Pesquisador Júnior em Cibersegurança",
-      "period": "Maio 2025 - Agora",
-      "details": "Pesquisador voluntário no Polypus Labs Hacker Club, atuando em projetos colaborativos, análise de CVEs e uso prático de ferramentas como Nmap, Wireshark e BurpSuite. Produzo relatórios técnicos e participo de discussões, aprofundando conhecimentos em cibersegurança."
-    },
-    {
-      "company": "Grupo Natureza",
-      "role": "Estagiário Desenvolvedor",
-      "period": "Março 2025 - Agora",
-      "details": "Atuo no desenvolvimento de aplicações web e mobile utilizando FastAPI, JavaScript e PostgreSQL, além da automação de tarefas com Python, Bash e PowerShell. Também sou responsável pela implantação de servidores e pela configuração de pipelines CI/CD com Docker e Jenkins."
-    }
-  ],
+  "experience": {
+    "header": "EXPERIÊNCIA PROFISSIONAL",
+    "list": [
+      {
+        "company": "Polypus Labs",
+        "role": "Pesquisador Júnior em Cibersegurança",
+        "period": "Maio 2025 - Presente",
+        "details": "Pesquisador voluntário no Polypus Labs Hacker Club, atuando em projetos colaborativos, análise de CVEs e uso prático de ferramentas como Nmap, Wireshark e BurpSuite. Produzo relatórios técnicos e participo de discussões, aprofundando conhecimentos em cibersegurança."
+      },
+      {
+        "company": "Grupo Natureza",
+        "role": "Estagiário Desenvolvedor",
+        "period": "Março 2025 - Presente",
+        "details": "Atuo no desenvolvimento de aplicações web e mobile utilizando FastAPI, React.js e PostgreSQL, além da automação de tarefas com Python, Bash e PowerShell. Também sou responsável pela implantação de servidores e pela configuração de pipelines CI/CD com Docker e Jenkins."
+      }
+    ]
+  },
 
-  "education": [
-    {
-      "degree": "Análise e Desenvolvimento de Sistemas",
-      "institution": "Faculdade Anhanguera",
-      "year": "2025 - Presente",
-      "img": "static/img/anhanguera.png"
-    },
-    {
-      "degree": "Mestrado em Física",
-      "institution": "Universidade de São Paulo",
-      "year": "2022 - 2024",
-      "img": "static/img/usp.jpg",
-      "description": "Simetrias emergentes e topologia no grafeno bicamada torcido. Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
-    },
-    {
-      "degree": "Bacharelado em Física",
-      "institution": "Universidade de São Paulo",
-      "year": "2018 - 2022",
-      "img": "static/img/usp.jpg",
-      "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, disponíveis no meu LinkedIn."
-    }
-  ],
+  "skills": {
+    "header": "COMPETÊNCIAS",
+    "list": [
+      "Cibersegurança",
+      "Linux",
+      "Python",
+      "JavaScript",
+      "C",
+      "Git",
+      "PostgreSQL",
+      "Redes de Computadores",
+      "CI/CD",
+      "Jenkins",
+      "Docker",
+      "Bash",
+      "OWASP",
+      "PowerShell",
+      "Inglês Avançado"
+    ]
+  },
 
-  "strengths": [
-    "Solução de problemas",
-    "Pensamento analítico",
-    "Aprendizado rápido",
-    "Autodidata",
-    "Trabalho em equipe",
-    "Entusiasmo",
-    "Didática"
-  ],
+  "strengths": {
+    "header": "PONTOS FORTES",
+    "list": [
+      "Solução de problemas",
+      "Pensamento analítico",
+      "Aprendizado rápido",
+      "Autodidata",
+      "Trabalho em equipe",
+      "Entusiasmo",
+      "Didática"
+    ]
+  },
 
-  "hobbies": [
-    "Hacking ético e CTFs",
-    "Comunidade open-source",
-    "Desafios de programação",
-    "Calistenia",
-    "Jogos online"
-  ],
+  "hobbies": {
+    "header": "HOBBIES",
+    "list": [
+      "Hacking ético e CTFs",
+      "Comunidade open-source",
+      "Desafios de programação",
+      "Calistenia",
+      "Jogos online"
+    ]
+  },
 
-  "certifications": [
-    {
-      "degree": "Laboratórios Práticos em Segurança Ofensiva",
-      "institution": "HackTheBox",
-      "year": "2024 - Presente",
-      "img": "static/img/hackthebox.png"
-    },
-    {
-      "degree": "Desenvolvimento Full-Stack em JavaScript",
-      "institution": "The Odin Project",
-      "year": "2024 - 2025",
-      "img": "static/img/odinproject.png"
-    },
-    {
-      "degree": "Certificação Google Cybersecurity",
-      "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
-      "year": "2024",
-      "img": "static/img/google-cyber.png"
-    }
-  ]
+  "education": {
+    "header": "FORMAÇÃO ACADÊMICA",
+    "list": [
+        {
+          "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+          "institution": "Faculdade Anhanguera",
+          "year": "2025 - Presente",
+          "img": "static/img/anhanguera.png"
+        },
+        {
+          "degree": "Mestrado em Física",
+          "institution": "Universidade de São Paulo",
+          "year": "2022 - 2024",
+          "img": "static/img/usp.jpg",
+          "description": "Simetrias emergentes e topologia no grafeno bicamada torcido. Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
+        },
+        {
+          "degree": "Bacharelado em Física",
+          "institution": "Universidade de São Paulo",
+          "year": "2018 - 2022",
+          "img": "static/img/usp.jpg",
+          "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, disponíveis no meu <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
+        }
+      ]
+  },
+
+  "certifications": {
+    "header": "CURSOS E CERTIFICAÇÕES",
+    "list": [
+      {
+        "degree": "Laboratórios Práticos em Segurança Ofensiva",
+        "institution": "HackTheBox",
+        "year": "2024 - Presente",
+        "img": "static/img/hackthebox.png"
+      },
+      {
+        "degree": "Desenvolvimento Full-Stack em JavaScript",
+        "institution": "The Odin Project",
+        "year": "2024 - 2025",
+        "img": "static/img/odinproject.png"
+      },
+      {
+        "degree": "Certificação Google Cybersecurity",
+        "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
+        "year": "2024",
+        "img": "static/img/google-cyber.png"
+      }
+    ]
+  }
+
 }

@@ -1,11 +1,13 @@
+{% if strengths %}
 <div class="section">
-  <h3>PONTOS FORTES</h3>
-  {% for strength in strengths %}
+  <h3>{{ strengths.header }}</h3>
+  {% for strength in strengths.list %}
   <div class="strength">
     <span>{{ strength }}</span>
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <style>
   .strength {

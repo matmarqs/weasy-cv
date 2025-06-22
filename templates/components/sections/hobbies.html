@@ -1,11 +1,13 @@
+{% if hobbies %}
 <div class="section">
-  <h3>HOBBIES</h3>
-  {% for hobby in hobbies %}
+  <h3>{{ hobbies.header }}</h3>
+  {% for hobby in hobbies.list %}
   <div class="hobby">
     <span>{{ hobby }}</span>
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <style>
   .hobby {

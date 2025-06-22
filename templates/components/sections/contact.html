@@ -1,29 +1,22 @@
-<div class="section">
-  <h3>CONTATO</h3>
-  {% for contact in contacts %}
-  <div class="contact-item">
-      <i class="{{ contact.icon }}"></i>
-      <a href="{{ contact.href }}">{{ contact.value }}</a>
-  </div>
-  {% endfor %}
-</div>
+{% for contact in contacts %}
+<span class="contact-item">
+    <a href="{{ contact.href }}"><i class="{{ contact.icon }}"></i> {{ contact.value }}</a>
+</span>
+{% endfor %}
 
 <style>
   .contact-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
+    margin-right: 16px;
   }
 
   .contact-item i {
     width: 16px;
     text-align: center;
-    margin-right: 8px;
-    color: #1F2937;
+    color: white;
   }
 
   .contact-item a {
-    color: #1F2937;
+    color: white;
     text-decoration: none;
   }
 
