@@ -1,0 +1,151 @@
+{
+  "name": "Mateus Marques",
+  "role": "Cybersecurity Analyst | Offensive Security | Master's in Physics",
+  "photo": "assets/img/mateus-hack.jpeg",
+  "contacts": [
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://linkedin.com/in/matmarqs",
+      "type": "LinkedIn",
+      "value": "in/matmarqs"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/matmarqs",
+      "type": "GitHub",
+      "value": "matmarqs"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:matmarqs@proton.me",
+      "type": "Email",
+      "value": "matmarqs@proton.me"
+    },
+    {
+      "icon": "fas fa-phone",
+      "href": "tel:+5511983710463",
+      "type": "Phone",
+      "value": "+55 (11) 98371-0463"
+    }
+  ],
+  "aboutme": {
+    "header": "ABOUT ME",
+    "text": "I hold a bachelor's and a master's degree in Physics and currently study Systems Analysis and Development. I have an analytical mindset, am driven by challenges, and have a strong interest in cybersecurity. In my free time, I focus on studying offensive security through HackTheBox and CTFs, aiming for a Red Team career."
+  },
+  "experience": {
+    "header": "PROFESSIONAL EXPERIENCE",
+    "list": [
+      {
+        "company": "Polypus Labs",
+        "role": "Junior Cybersecurity Researcher",
+        "period": "May 2025 - Present",
+        "details": "Volunteer researcher at the Polypus Labs Hacker Club. Collaborative projects, CVE analysis, and tools like Nmap, Wireshark, and BurpSuite. I produce technical reports and participate in discussions, deepening my knowledge in cybersecurity."
+      },
+      {
+        "company": "Grupo Natureza",
+        "role": "Full-Stack Developer",
+        "period": "March 2025 - Present",
+        "details": "Web and mobile development using FastAPI, React.js, and PostgreSQL, as well as task automation with Python, Bash, and PowerShell. I also configure Linux servers and CI/CD pipelines with Docker and Jenkins."
+      }
+    ]
+  },
+  "skills": {
+    "header": "SKILLS",
+    "list": [
+      "Python",
+      "Linux",
+      "C",
+      "Cybersecurity",
+      "OWASP",
+      "JavaScript",
+      "PostgreSQL",
+      "Git",
+      "CI/CD",
+      "Docker",
+      "Bash",
+      "PowerShell",
+      "Advanced English"
+    ]
+  },
+  "strengths": {
+    "header": "STRENGTHS",
+    "list": [
+      "Problem solving",
+      "Analytical thinking",
+      "Fast learner",
+      "Self-taught",
+      "Teamwork",
+      "Enthusiasm",
+      "Teaching skills"
+    ]
+  },
+  "extras": {
+    "header": "SUPPLEMENTARY",
+    "list": [
+      "Public Speaking Course - Vox2You 2024",
+      "English TOEFL iBT - Score 109/120",
+      "Exchange Program - New York 2017"
+    ]
+  },
+  "hobbies": {
+    "header": "HOBBIES",
+    "list": [
+      "Ethical hacking and CTFs",
+      "Open-source community",
+      "Programming challenges",
+      "Calisthenics",
+      "Online gaming"
+    ]
+  },
+  "education": {
+    "header": "EDUCATION",
+    "list": [
+      {
+        "degree": "Technology Degree in Systems Analysis and Development",
+        "institution": "Faculdade Anhanguera",
+        "year": "2025 - Present",
+        "img": "assets/img/anhanguera.png"
+      },
+      {
+        "degree": "Master's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2023 - 2024",
+        "img": "assets/img/usp.jpg",
+        "description": "Emergent symmetries and topology in twisted bilayer graphene.</br>Thesis: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Article: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
+      },
+      {
+        "degree": "Bachelor's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2019 - 2022",
+        "img": "assets/img/usp.jpg",
+        "description": "Third-best student with a GPA of 9.2/10. Earned multiple medals in scientific olympiads, listed on my <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
+      }
+    ]
+  },
+  "certifications": {
+    "header": "COURSES AND CERTIFICATIONS",
+    "list": [
+      {
+        "degree": "Hands-on Offensive Security Labs",
+        "institution": "HackTheBox",
+        "year": "2024 - Present",
+        "img": "assets/img/hackthebox.png",
+        "description": "Ethical hacking, web vulnerability exploitation (OWASP Top 10), attacks on Active Directory networks, cryptographic techniques, and reverse engineering. Tools: Nmap, BurpSuite, Metasploit, Hashcat, Ghidra, Wireshark."
+      },
+      {
+        "degree": "Full-Stack JavaScript Development",
+        "institution": "The Odin Project",
+        "year": "2024 - 2025",
+        "img": "assets/img/odinproject.png",
+        "description": "Hands-on course with projects on <a href=\"https://github.com/matmarqs\">GitHub</a>.</br>Skills: HTML, CSS, JavaScript, Node.js/Express, React, and PostgreSQL."
+      },
+      {
+        "degree": "Google Cybersecurity Professional Certificate",
+        "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
+        "year": "2024",
+        "img": "assets/img/google-cyber.png",
+        "description": "NIST and ISO 27001 frameworks, identity and access management (IAM), networks and firewalls, vulnerabilities and CVEs, incident response, SIEM, and IDS/IPS."
+      }
+    ]
+  }
+}
