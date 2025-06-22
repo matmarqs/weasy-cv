@@ -20,7 +20,7 @@ python main.py -j <arquivo_json> [-o <output.pdf>]
 
 Exemplo:
 ```bash
-python main.py -j data/curriculo.json -o meu_curriculo.pdf
+python main.py -j data/cyber_br.json
 ```
 
 ## ✨ Funcionalidades
