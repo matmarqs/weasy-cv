@@ -8,7 +8,7 @@ from typing import cast
 TEMPLATE_DIR = "templates"
 TEMPLATE_NAME = "resume.html"
 DATA_FILE = "data/cyber.json"
-STYLESHEET = "static/style.css"
+STYLESHEET = "static/base.css"
 FONTAWESOME = "static/fontawesome/css/all.min.css"
 OUTPUT_FILE = "resume.pdf"
 WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")

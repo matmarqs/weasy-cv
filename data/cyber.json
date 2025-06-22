@@ -1,34 +1,59 @@
 {
   "name": "Mateus Marques",
   "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
+  "photo": "static/img/mateus-hack.jpeg",
   "summary": "Passionate about offensive security, Linux, and ethical hacking.",
+  "contacts": [
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://linkedin.com/in/matmarqs",
+      "type": "LinkedIn",
+      "value": "in/matmarqs"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/matmarqs",
+      "type": "GitHub",
+      "value": "matmarqs"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:matmarqs@proton.me",
+      "type": "Email",
+      "value": "matmarqs@proton.me"
+    },
+    {
+      "icon": "fas fa-phone",
+      "href": "tel:+5511983710463",
+      "type": "Phone",
+      "value": "+55 (11) 98371-0463"
+    }
+  ],
+
   "skills": [
-    "Red Teaming",
-    "Pentesting",
-    "Python",
+    "Cibersegurança",
     "Linux",
-    "Network Security",
+    "Python",
+    "Redes",
     "JavaScript",
     "PostgreSQL",
+    "CI/CD",
     "Jenkins",
     "Git",
     "Bash",
-    "PowerShell"
+    "PowerShell",
+    "Inglês Avançado"
   ],
+
   "experience": [
-    {
-      "company": "CyberOps Inc.",
-      "role": "Junior Red Teamer",
-      "period": "2023 - Present",
-      "details": "Performed internal and external pentests, wrote detailed reports, and collaborated with blue team."
-    },
     {
       "company": "Grupo Natureza",
       "role": "Estagiário Desenvolvedor",
-      "period": "Mar 2025 - Agora",
+      "period": "Março 2025 - Agora",
       "details": "Performed internal and external pentests, wrote detailed reports, and collaborated with blue team."
     }
   ],
+
   "education": [
     {
       "degree": "Análise e Desenvolvimento de Sistemas",
@@ -46,18 +71,13 @@
       "year": "2022"
     }
   ],
-  "contacts": [
-    {"type": "Email", "value": "mateus@example.com"},
-    {"type": "Phone", "value": "+55 (11) 99999-9999"},
-    {"type": "LinkedIn", "value": "in/matmarqs"},
-    {"type": "GitHub", "value": "matmarqs"}
-  ],
+
   "languages": [
-    {"name": "Português", "proficiency": 100},
     {"name": "Inglês", "proficiency": 100},
     {"name": "Japonês", "proficiency": 10},
     {"name": "Mandarim", "proficiency": 5}
   ],
+
   "certifications": [
     {"name": "Certificação em Segurança Ofensiva", "issuer": "HackTheBox", "year": "2023"},
     {"name": "Certificação Google Cybersecurity", "issuer": "Coursera", "year": "2024"},

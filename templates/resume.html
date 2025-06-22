@@ -5,7 +5,7 @@
 
   <div class="container">
     {% include "components/sidebar.html" %}
-
+    
     <div class="content">
       {% include "components/sections/profile.html" %}
       {% include "components/sections/experience.html" %}
@@ -13,4 +13,30 @@
       {% include "components/sections/certifications.html" %}
     </div>
   </div>
+
+  <style>
+    .container {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .content {
+      width: 70%;
+      padding: 1.5rem 2rem;
+      overflow: auto;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .section h3 {
+      color: #1F2937;
+      border-bottom: 2px solid #1F2937;
+      padding-bottom: 0.3rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.1rem;
+    }
+  </style>
 {% endblock %}

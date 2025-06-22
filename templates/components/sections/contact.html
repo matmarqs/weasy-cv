@@ -1,23 +1,33 @@
-<div class="contact-info">
+<div class="section">
   <h3>CONTATO</h3>
   {% for contact in contacts %}
   <div class="contact-item">
-    {% if contact.type == "LinkedIn" %}
-    <i class="fab fa-linkedin"></i>
-    <a href="https://linkedin.com/in/{{ contact.value }}" target="_blank">{{ contact.value }}</a>
-    {% elif contact.type == "GitHub" %}
-    <i class="fab fa-github"></i>
-    <a href="https://github.com/{{ contact.value }}" target="_blank">{{ contact.value }}</a>
-    {% elif contact.type == "Email" %}
-    <i class="fas fa-envelope"></i>
-    <a href="mailto:{{ contact.value }}">{{ contact.value }}</a>
-    {% elif contact.type == "Phone" %}
-    <i class="fas fa-phone"></i>
-    <span>{{ contact.value }}</span>
-    {% else %}
-    <i class="fas fa-circle"></i>
-    <span>{{ contact.value }}</span>
-    {% endif %}
+      <i class="{{ contact.icon }}"></i>
+      <a href="{{ contact.href }}">{{ contact.value }}</a>
   </div>
   {% endfor %}
 </div>
+
+<style>
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-item i {
+    width: 16px;
+    text-align: center;
+    margin-right: 8px;
+    color: #1F2937;
+  }
+
+  .contact-item a {
+    color: #1F2937;
+    text-decoration: none;
+  }
+
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+</style>

@@ -1,9 +1,36 @@
 <div class="sidebar">
   <div class="profile">
-    <img id="photo" src="static/img/mateus-hack.jpeg">
+    <img id="photo" src="{{ photo }}">
     {% include "components/sections/contact.html" %}
   </div>
   
   {% include "components/sections/skills.html" %}
   {% include "components/sections/languages.html" %}
 </div>
+
+<style>
+  .sidebar {
+    width: 30%;
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    overflow: hidden;
+  }
+
+  #name {
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  #photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1F2937;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+</style>
