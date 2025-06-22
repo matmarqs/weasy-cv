@@ -4,7 +4,7 @@
 
   "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
 
-  "photo": "static/img/mateus-hack.jpeg",
+  "photo": "assets/img/mateus-hack.jpeg",
 
   "contacts": [
     {
@@ -115,20 +115,20 @@
           "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
           "institution": "Faculdade Anhanguera",
           "year": "2025 - Presente",
-          "img": "static/img/anhanguera.png"
+          "img": "assets/img/anhanguera.png"
         },
         {
           "degree": "Mestrado em Física",
           "institution": "Universidade de São Paulo",
           "year": "2022 - 2024",
-          "img": "static/img/usp.jpg",
+          "img": "assets/img/usp.jpg",
           "description": "Simetrias emergentes e topologia no grafeno bicamada torcido. Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
         },
         {
           "degree": "Bacharelado em Física",
           "institution": "Universidade de São Paulo",
           "year": "2018 - 2022",
-          "img": "static/img/usp.jpg",
+          "img": "assets/img/usp.jpg",
           "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, disponíveis no meu <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
         }
       ]
@@ -141,21 +141,21 @@
         "degree": "Laboratórios Práticos em Segurança Ofensiva",
         "institution": "HackTheBox",
         "year": "2024 - Presente",
-        "img": "static/img/hackthebox.png",
+        "img": "assets/img/hackthebox.png",
         "description": ""
       },
       {
         "degree": "Desenvolvimento Full-Stack em JavaScript",
         "institution": "The Odin Project",
         "year": "2024 - 2025",
-        "img": "static/img/odinproject.png",
+        "img": "assets/img/odinproject.png",
         "description": ""
       },
       {
         "degree": "Certificação Profissional Google Cybersecurity",
         "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
         "year": "2024",
-        "img": "static/img/google-cyber.png",
+        "img": "assets/img/google-cyber.png",
         "description": ""
       }
     ]

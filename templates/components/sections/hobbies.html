@@ -2,15 +2,9 @@
 <div class="section">
   <h3>{{ hobbies.header }}</h3>
   {% for hobby in hobbies.list %}
-  <div class="hobby">
+  <div class="list-item">
     <span>{{ hobby }}</span>
   </div>
   {% endfor %}
 </div>
 {% endif %}
-
-<style>
-  .hobby {
-    margin-bottom: 0.2rem;
-  }
-</style>

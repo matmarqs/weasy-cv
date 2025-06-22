@@ -2,15 +2,9 @@
 <div class="section">
   <h3>{{ extras.header }}</h3>
   {% for extra in extras.list %}
-  <div class="extra">
+  <div class="list-item">
     <span>{{ extra }}</span>
   </div>
   {% endfor %}
 </div>
 {% endif %}
-
-<style>
-  .extra {
-    margin-bottom: 0.2rem;
-  }
-</style>

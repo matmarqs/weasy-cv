@@ -2,7 +2,7 @@
   <div class="profile">
     <img id="photo" src="{{ photo }}">
   </div>
-  
+
   {% include "components/sections/skills.html" %}
   {% include "components/sections/strengths.html" %}
   {% include "components/sections/extras.html" %}
@@ -12,17 +12,9 @@
 <style>
   .sidebar {
     width: 30%;
-    background-color: #f3f4f6;
-    padding: 1.5rem;
+    background-color: var(--color-background-sidebar);
+    padding: var(--spacing-lg);
     overflow: hidden;
-  }
-
-  #name {
-    text-align: center;
-    color: #1F2937;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-    font-weight: bold;
   }
 
   #photo {
@@ -30,8 +22,8 @@
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #1F2937;
+    border: 3px solid var(--color-primary);
     display: block;
-    margin: 0 auto 1rem;
+    margin: 0 auto var(--spacing-md);
   }
 </style>

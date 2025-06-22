@@ -8,11 +8,11 @@ from typing import cast
 TEMPLATE_DIR = "templates"
 TEMPLATE_NAME = "resume.html"
 DATA_FILE = "data/cyber.json"
-STYLESHEET = "static/base.css"
-FONTAWESOME = "static/fontawesome/css/all.min.css"
+STYLESHEET = "templates/global.css"
+FONTAWESOME = "assets/fontawesome/css/all.min.css"
 OUTPUT_FILE = "resume.pdf"
 WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
-IGNORE_DIRS = ["static/fontawesome"]
+IGNORE_DIRS = ["assets/fontawesome"]
 
 class PDFBuilder(FileSystemEventHandler):
     def __init__(self):

@@ -2,15 +2,9 @@
 <div class="section">
   <h3>{{ strengths.header }}</h3>
   {% for strength in strengths.list %}
-  <div class="strength">
+  <div class="list-item">
     <span>{{ strength }}</span>
   </div>
   {% endfor %}
 </div>
 {% endif %}
-
-<style>
-  .strength {
-    margin-bottom: 0.2rem;
-  }
-</style>
