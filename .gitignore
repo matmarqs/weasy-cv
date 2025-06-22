@@ -3,6 +3,7 @@
 
 # temporary ignore style/img files
 static/img/
+static/fontawesome/
 
 # ignore pdf files
 **/*.pdf
