@@ -2,17 +2,19 @@
 <div class="section">
   <h3>{{ education.header }}</h3>
   {% for edu in education.list %}
-  <div class="education-item">
-    <div class="education-header">
-      <div class="education-info">
-        <div class="degree">{{ edu.degree }}</div>
-        <div class="institution">{{ edu.institution }} | {{ edu.year }}</div>
+  <div class="edu-item">
+    <div class="edu-header">
+      <div class="edu-info">
+        <div class="edu-degree">{{ edu.degree }}</div>
+        <div class="edu-institution">{{ edu.institution }} | {{ edu.year }}</div>
         {% if edu.description %}
-        <div class="education-description">{{ edu.description }}</div>
+        <div class="edu-description">{{ edu.description }}</div>
         {% endif %}
       </div>
       {% if edu.img %}
-      <img class="education-image" src="{{ edu.img }}">
+      <div class="edu-image-container">
+        <img class="edu-image" src="{{ edu.img }}">
+      </div>
       {% endif %}
     </div>
   </div>
@@ -21,63 +23,52 @@
 {% endif %}
 
 <style>
-  .education-item {
-    margin-bottom: 0.8rem;
-    border-bottom: 1px solid #e5e7eb;
+  .edu-item {
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid var(--color-light);
   }
 
-  .education-item:last-child {
+  .edu-item:last-child {
     border-bottom: none;
     margin-bottom: 0;
+    padding-bottom: 0;
   }
 
-  .education-header {
+  .edu-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 0.3rem;
+    gap: var(--spacing-md);
   }
 
-  .education-info {
-    flex: 1;
-  }
-
-  .degree {
+  .edu-degree {
     font-weight: 600;
-    color: #1F2937;
-    font-size: 0.7rem; /* Fonte menor */
   }
 
-  .institution {
+  .edu-institution {
     font-weight: 500;
-    color: #4b5563;
+    color: var(--color-secondary);
     font-style: italic;
-    font-size: 0.7rem; /* Fonte menor */
-    margin: 0.1rem 0;
+    margin: var(--spacing-xs) 0;
   }
 
-  .education-description {
-    color: #6b7280;
-    font-size: 0.7rem; /* Fonte menor */
-    line-height: 1.4;
-    margin-top: 0.3rem;
+  .edu-description {
+    color: var(--color-tertiary);
   }
 
-  .education-description a {
-    color: #0077cc;
-    text-decoration: none;
+  .edu-image-container {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    position: relative;
+    flex-shrink: 0;
   }
 
-  .education-image {
-    height: auto; /* Tamanho reduzido */
-    width: 48px;
+  .edu-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
   }
-
-  .education-period {
-    font-size: 0.8rem; /* Fonte menor */
-    color: #6b7280;
-    font-weight: 400;
-  }
-  
 </style>

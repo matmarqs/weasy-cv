@@ -5,8 +5,8 @@
   <div class="cert-item">
     <div class="cert-header">
       <div class="cert-info">
-        <div class="cert-degree">{{ cert.degree }}</div>
-        <div class="cert-institution">{{ cert.institution }} | {{ cert.year }}</div>
+        <div class="cert-title">{{ cert.degree }}</div>
+        <div class="cert-issuer">{{ cert.institution }} | {{ cert.year }}</div>
         {% if cert.description %}
         <div class="cert-description">{{ cert.description }}</div>
         {% endif %}
@@ -24,9 +24,9 @@
 
 <style>
   .cert-item {
-    margin-bottom: 1rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid var(--color-light);
   }
 
   .cert-item:last-child {
@@ -37,66 +37,36 @@
   .cert-header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centralização vertical */
-    gap: 1rem;
   }
 
-  .cert-info {
-    flex: 1;
-    min-width: 0; /* Evita overflow */
-  }
-
-  .cert-degree {
+  .cert-title {
     font-weight: 600;
-    color: #1F2937;
-    font-size: 0.7rem;
-    margin-bottom: 0.1rem;
+    color: var(--color-primary);
   }
 
-  .cert-institution {
-    font-weight: 500;
-    color: #4b5563;
-    font-size: 0.7rem;
-    margin: 0.1rem 0;
-    line-height: 1.3;
+  .cert-issuer {
+    color: var(--color-secondary);
+    margin: var(--spacing-xs) 0;
   }
 
   .cert-description {
-    color: #6b7280;
-    font-size: 0.7rem;
-    line-height: 1.4;
-    margin-top: 0.3rem;
-  }
-
-  .cert-institution a {
-    color: #0077cc;
-    text-decoration: none;
-    word-break: break-all; /* Para links longos */
+    color: var(--color-tertiary);
   }
 
   .cert-image-container {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    border-radius: 4px;
-    overflow: hidden;
-    border: 1px solid #e5e7eb;
-    flex-shrink: 0;
-    position: relative; /* Para posicionamento absoluto da imagem */
+    width: var(--logo-size);
+    height: var(--logo-size);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--color-light);
+    position: relative;
   }
 
   .cert-image {
-    position: absolute; /* Centralização perfeita */
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 90%; /* Espaço de respiro */
-    max-height: 90%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    max-width: 95%;
+    max-height: 95%;
   }
 </style>

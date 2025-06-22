@@ -4,6 +4,7 @@
   --color-secondary: #4b5563;
   --color-tertiary: #6b7280;
   --color-light: #e5e7eb;
+  --color-link: #0077cc;
   --color-background-sidebar: #f3f4f6;
   --color-white: #ffffff;
 
@@ -24,6 +25,9 @@
   /* Bordas */
   --border-radius-sm: 4px;
   --border-radius-md: 12px;
+
+  /* Imagens */
+  --logo-size: 40px;
 }
 
 @page {
@@ -90,4 +94,9 @@ body {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: var(--color-link);
 }

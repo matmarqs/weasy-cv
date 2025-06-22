@@ -122,7 +122,7 @@
           "institution": "Universidade de São Paulo",
           "year": "2022 - 2024",
           "img": "assets/img/usp.jpg",
-          "description": "Simetrias emergentes e topologia no grafeno bicamada torcido. Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
+          "description": "Simetrias emergentes e topologia no grafeno bicamada torcido.</br>Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
         },
         {
           "degree": "Bacharelado em Física",
@@ -142,21 +142,21 @@
         "institution": "HackTheBox",
         "year": "2024 - Presente",
         "img": "assets/img/hackthebox.png",
-        "description": ""
+        "description": "asdioasdi"
       },
       {
         "degree": "Desenvolvimento Full-Stack em JavaScript",
         "institution": "The Odin Project",
         "year": "2024 - 2025",
         "img": "assets/img/odinproject.png",
-        "description": ""
+        "description": "adsoi"
       },
       {
         "degree": "Certificação Profissional Google Cybersecurity",
         "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
         "year": "2024",
         "img": "assets/img/google-cyber.png",
-        "description": ""
+        "description": "dsaoidao"
       }
     ]
   }
