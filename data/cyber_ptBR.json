@@ -35,7 +35,7 @@
 
   "aboutme": {
     "header": "SOBRE MIM",
-    "text": "Sou bacharel e mestre em Física pela USP e atualmente curso Análise e Desenvolvimento de Sistemas. Tenho perfil analítico, sou movido por desafios e tenho um grande interesse em cibersegurança. No tempo livre, me dedico ao estudo de segurança ofensiva em plataformas como HackTheBox e CTFs, com o objetivo de migrar para a área de Red Team."
+    "text": "Sou bacharel e mestre em Física pela USP e hoje curso Análise e Desenvolvimento de Sistemas. Tenho perfil analítico, sou movido por desafios e tenho um enorme interesse em cibersegurança. No tempo livre, me dedico ao estudo de segurança ofensiva em plataformas como HackTheBox e CTFs, com o objetivo de atuar na área de Red Team."
   },
 
   "experience": {
@@ -120,14 +120,14 @@
         {
           "degree": "Mestrado em Física",
           "institution": "Universidade de São Paulo",
-          "year": "2022 - 2024",
+          "year": "2023 - 2024",
           "img": "assets/img/usp.jpg",
           "description": "Simetrias emergentes e topologia no grafeno bicamada torcido.</br>Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
         },
         {
           "degree": "Bacharelado em Física",
           "institution": "Universidade de São Paulo",
-          "year": "2018 - 2022",
+          "year": "2019 - 2022",
           "img": "assets/img/usp.jpg",
           "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, disponíveis no meu <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
         }
@@ -142,21 +142,21 @@
         "institution": "HackTheBox",
         "year": "2024 - Presente",
         "img": "assets/img/hackthebox.png",
-        "description": "asdioasdi"
+        "description": "Hacking ético, exploração de vulnerabilidades web OWASP Top 10, ataques a redes Active Directory, técnicas de criptografia e engenharia reversa. Ferramentas: Nmap, BurpSuite, Metasploit, Hashcat, Ghidra, Wireshark."
       },
       {
         "degree": "Desenvolvimento Full-Stack em JavaScript",
         "institution": "The Odin Project",
         "year": "2024 - 2025",
         "img": "assets/img/odinproject.png",
-        "description": "adsoi"
+        "description": "Curso prático com projetos no <a href=\"https://github.com/matmarqs\">GitHub</a>.</br>Competências: HTML, CSS, JavaScript, Node.js/Express, React e PostgreSQL."
       },
       {
         "degree": "Certificação Profissional Google Cybersecurity",
         "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
         "year": "2024",
         "img": "assets/img/google-cyber.png",
-        "description": "dsaoidao"
+        "description": "Frameworks NIST e ISO 27001, gestão de identidade e acesso (IAM), redes e firewalls, vulnerabilidades e CVEs, resposta a incidentes, SIEM e IDS/IPS."
       }
     ]
   }
