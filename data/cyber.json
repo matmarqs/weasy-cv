@@ -45,13 +45,13 @@
         "company": "Polypus Labs",
         "role": "Pesquisador Júnior em Cibersegurança",
         "period": "Maio 2025 - Presente",
-        "details": "Pesquisador voluntário no Polypus Labs Hacker Club, atuando em projetos colaborativos, análise de CVEs e uso prático de ferramentas como Nmap, Wireshark e BurpSuite. Produzo relatórios técnicos e participo de discussões, aprofundando conhecimentos em cibersegurança."
+        "details": "Pesquisador voluntário no Polypus Labs Hacker Club. Projetos colaborativos, análise de CVEs e ferramentas como Nmap, Wireshark e BurpSuite. Produzo relatórios técnicos e participo de discussões, aprofundando conhecimentos em cibersegurança."
       },
       {
         "company": "Grupo Natureza",
-        "role": "Estagiário Desenvolvedor",
+        "role": "Desenvolvedor Full-Stack",
         "period": "Março 2025 - Presente",
-        "details": "Atuo no desenvolvimento de aplicações web e mobile utilizando FastAPI, React.js e PostgreSQL, além da automação de tarefas com Python, Bash e PowerShell. Também sou responsável pela implantação de servidores e pela configuração de pipelines CI/CD com Docker e Jenkins."
+        "details": "Desenvolvimento web e mobile com FastAPI, React.js e PostgreSQL, e automatização de tarefas com Python, Bash e PowerShell. Também sou responsável por configurar servidores Linux e pipelines CI/CD com Docker e Jenkins."
       }
     ]
   },
@@ -59,19 +59,17 @@
   "skills": {
     "header": "COMPETÊNCIAS",
     "list": [
-      "Cibersegurança",
-      "Linux",
       "Python",
-      "JavaScript",
+      "Linux",
       "C",
-      "Git",
+      "Cibersegurança",
+      "OWASP",
+      "JavaScript",
       "PostgreSQL",
-      "Redes de Computadores",
+      "Git",
       "CI/CD",
-      "Jenkins",
       "Docker",
       "Bash",
-      "OWASP",
       "PowerShell",
       "Inglês Avançado"
     ]
@@ -87,6 +85,15 @@
       "Trabalho em equipe",
       "Entusiasmo",
       "Didática"
+    ]
+  },
+
+  "extras": {
+    "header": "COMPLEMENTARES",
+    "list": [
+      "Curso de Oratória - Vox2You 2024",
+      "Inglês TOEFL iBT - Score 109/120",
+      "Intercâmbio - New York 2017"
     ]
   },
 
@@ -134,19 +141,22 @@
         "degree": "Laboratórios Práticos em Segurança Ofensiva",
         "institution": "HackTheBox",
         "year": "2024 - Presente",
-        "img": "static/img/hackthebox.png"
+        "img": "static/img/hackthebox.png",
+        "description": ""
       },
       {
         "degree": "Desenvolvimento Full-Stack em JavaScript",
         "institution": "The Odin Project",
         "year": "2024 - 2025",
-        "img": "static/img/odinproject.png"
+        "img": "static/img/odinproject.png",
+        "description": ""
       },
       {
-        "degree": "Certificação Google Cybersecurity",
+        "degree": "Certificação Profissional Google Cybersecurity",
         "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
         "year": "2024",
-        "img": "static/img/google-cyber.png"
+        "img": "static/img/google-cyber.png",
+        "description": ""
       }
     ]
   }
