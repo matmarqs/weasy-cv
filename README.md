@@ -1,47 +1,40 @@
 # WeasyCV - Gerador de Currículo em PDF
 
-Gerador minimalista de currículos em PDF a partir de arquivos JSON, utilizando Jinja2 para templates e WeasyPrint para renderização.
+Gerador minimalista de currículos em PDF a partir de arquivos JSON, utilizando Jinja2 para templates HTML e WeasyPrint para renderização.
 
-## 📦 Instalação
+## Instalação
 
 ```bash
 git clone https://github.com/matmarqs/weasy-cv  # Clonar repositório
-python -m venv .venv  # Criar ambiente virtual
-source .venv/bin/activate  # Ativar ambiente virtual (Linux/Mac)
-# .venv\Scripts\activate  # Para Windows
-pip install -r requirements.txt
+python -m venv .venv                            # Criar ambiente virtual
+source .venv/bin/activate                       # Ativar ambiente virtual (Linux/Mac)
+# .venv\Scripts\activate                        # Para Windows
+pip install -r requirements.txt                 # Instalar dependências
 ```
 
-## ▶️ Como Usar
+## Como Usar
 
 ```bash
-python main.py -j <arquivo_json> [-o <output.pdf>]
+python weasy-cv.py -j <arquivo_json> [-o <output.pdf>]
 ```
 
 Exemplo:
 ```bash
-python main.py -j data/cyber_br.json
+python weasy-cv.py -j data/cyber_br.json
 ```
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- **Modular**: Estrutura do currículo definida em JSON
+- **JSON**: Estrutura do currículo definida em JSON
 - **Templates**: Utiliza Jinja2 para renderização HTML
 - **PDF de Qualidade**: WeasyPrint gera PDFs profissionais
 - **Live Preview**: Watchdog monitora e regenera automaticamente
-- **Ícones**: Integração com Font Awesome (créditos abaixo)
+- **Ícones**: Integração com Font Awesome.
 
-## 🛠️ Tecnologias
-
-- **WeasyPrint**: Conversão de HTML para PDF
-- **Jinja2**: Engine de templates
-- **Watchdog**: Monitoramento de arquivos em tempo real
-- **Font Awesome**: Ícones profissionais (Free v6.4.0)
-
-## 📝 Créditos
+## Créditos
 
 Ícones por [Font Awesome](https://fontawesome.com/) (Free v6.4.0) - Licença CC BY 4.0
 
-## 📄 Licença
+## Licença
 
-MIT License - Consulte o arquivo LICENSE para mais detalhes
+GPL-3.0 LICENSE - Consulte o arquivo LICENSE para mais detalhes
