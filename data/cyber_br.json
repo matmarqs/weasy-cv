@@ -1,11 +1,7 @@
 {
-
   "name": "Mateus Marques",
-
-  "role": "Analista de Cibersegurança | Segurança Ofensiva | Mestrado em Física",
-
+  "role": "Analista de Cibersegurança | Pentester | Mestrado em Física",
   "photo": "assets/img/mateus-hack.jpeg",
-
   "contacts": [
     {
       "icon": "fab fa-linkedin",
@@ -32,49 +28,47 @@
       "value": "+55 (11) 98371-0463"
     }
   ],
-
   "aboutme": {
     "header": "SOBRE MIM",
-    "text": "Sou bacharel e mestre em Física pela USP e hoje curso Análise e Desenvolvimento de Sistemas. Tenho perfil analítico, sou movido por desafios e tenho um enorme interesse em cibersegurança. No tempo livre, me dedico ao estudo de segurança ofensiva em plataformas como HackTheBox e CTFs, com o objetivo de atuar na área de Red Team."
+    "text": "Profissional de cibersegurança com Mestrado em Física pela USP, especializado em pentest. Aplico metodologia analítica na exploração de vulnerabilidades e mantenho expertise atualizada com estudos contínuos em CTFs."
   },
-
   "experience": {
     "header": "EXPERIÊNCIA PROFISSIONAL",
     "list": [
       {
-        "company": "Polypus Labs",
-        "role": "Pesquisador Júnior em Cibersegurança",
-        "period": "Maio 2025 - Presente",
-        "details": "Pesquisador voluntário no Polypus Labs Hacker Club. Projetos colaborativos, análise de CVEs e ferramentas como Nmap, Wireshark e BurpSuite. Produzo relatórios técnicos e participo de discussões, aprofundando conhecimentos em cibersegurança."
+        "company": "G4F | Secretaria de Governo de Goiás (SGG)",
+        "role": "Analista de Cibersegurança | Pentester",
+        "period": "Novembro 2025 - Presente",
+        "details": "Pentests web blackbox e greybox (ferramentas BurpSuite, Nmap, Python, Bash, SQLMap, Nuclei), identificação de vulnerabilidades de alto impacto (RCE, SQLi, IDOR, XSS, CSRF), análise forense de servidores Linux e malwares obfuscados. Suporte na implementação de SIEM Wazuh, GRC Ciso Assistant e monitoramento EDR SentinelOne."
       },
       {
         "company": "Grupo Natureza",
-        "role": "Desenvolvedor Full-Stack",
-        "period": "Março 2025 - Presente",
-        "details": "Desenvolvimento web e mobile com FastAPI, React.js e PostgreSQL, e automatização de tarefas com Python, Bash e PowerShell. Também sou responsável por configurar servidores Linux e pipelines CI/CD com Docker e Jenkins."
+        "role": "Estagiário em Engenharia de Dados",
+        "period": "Março 2025 - Outubro 2025",
+        "details": "Engenharia de dados com Python (integração de APIs e migração de sistemas), administração PostgreSQL, automação de chamados GLPI, desenvolvimento web/mobile com FastAPI, JavaScript e AppSheet, e CI/CD com Jenkins."
       }
     ]
   },
-
   "skills": {
     "header": "COMPETÊNCIAS",
     "list": [
-      "Python",
       "Linux",
       "C",
-      "Cibersegurança",
-      "OWASP",
-      "JavaScript",
+      "Python",
+      "Pentest Web",
+      "BurpSuite",
+      "Nmap",
+      "Análise de Malware",
+      "Engenharia Reversa",
+      "Assembly",
+      "TCP/IP",
       "PostgreSQL",
       "Git",
-      "CI/CD",
       "Docker",
       "Bash",
-      "PowerShell",
       "Inglês Avançado"
     ]
   },
-
   "strengths": {
     "header": "PONTOS FORTES",
     "list": [
@@ -87,78 +81,65 @@
       "Didática"
     ]
   },
-
   "extras": {
     "header": "COMPLEMENTARES",
     "list": [
       "Curso de Oratória - Vox2You 2024",
-      "Inglês TOEFL iBT - Score 109/120",
-      "Intercâmbio - New York 2017"
+      "Inglês 109/120 - TOEFL iBT 2018",
+      "Intercâmbio - Nova York 2017"
     ]
   },
-
   "hobbies": {
     "header": "HOBBIES",
     "list": [
       "Hacking ético e CTFs",
+      "Estudo de sistemas operacionais",
       "Comunidade open-source",
-      "Desafios de programação",
-      "Calistenia",
-      "Jogos online"
+      "Desafios de programação"
     ]
   },
-
   "education": {
     "header": "FORMAÇÃO ACADÊMICA",
     "list": [
-        {
-          "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-          "institution": "Faculdade Anhanguera",
-          "year": "2025 - Presente",
-          "img": "assets/img/anhanguera.png"
-        },
-        {
-          "degree": "Mestrado em Física",
-          "institution": "Universidade de São Paulo",
-          "year": "2023 - 2024",
-          "img": "assets/img/usp.jpg",
-          "description": "Simetrias emergentes e topologia no grafeno bicamada torcido.</br>Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo: <a href=\"https://arxiv.org/abs/2409.06674\">https://arxiv.org/abs/2409.06674</a>."
-        },
-        {
-          "degree": "Bacharelado em Física",
-          "institution": "Universidade de São Paulo",
-          "year": "2019 - 2022",
-          "img": "assets/img/usp.jpg",
-          "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, disponíveis no meu <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
-        }
-      ]
+      {
+        "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "institution": "Faculdade Anhanguera",
+        "year": "2025 - Presente",
+        "img": "assets/img/anhanguera.png"
+      },
+      {
+        "degree": "Mestrado em Física",
+        "institution": "Universidade de São Paulo",
+        "year": "2023 - 2024",
+        "img": "assets/img/usp.jpg",
+        "description": "Simetrias emergentes e topologia no grafeno bicamada torcido.</br>Dissertação: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Artigo publicado: <a href=\"https://doi.org/10.1016/j.physb.2025.417515\">https://doi.org/10.1016/j.physb.2025.417515</a>."
+      },
+      {
+        "degree": "Bacharelado em Física",
+        "institution": "Universidade de São Paulo",
+        "year": "2019 - 2022",
+        "img": "assets/img/usp.jpg",
+        "description": "Terceiro melhor aluno, com média ponderada de 9,2/10. Também obtive diversas medalhas em olimpíadas científicas, descritas no meu <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
+      }
+    ]
   },
-
   "certifications": {
-    "header": "CURSOS E CERTIFICAÇÕES",
+    "header": "CERTIFICAÇÕES E CURSOS",
     "list": [
       {
+        "degree": "Comptia Security+ (SY0-701)",
+        "institution": "CompTIA <a href=\"https://www.credly.com/badges/159fd369-4d4d-4b4b-9bd4-4ab2752fb4c3/public_url\">120972649ad94583968420a0c9c2ae47</a>",
+        "year": "Janeiro 2026",
+        "img": "assets/img/comptia_securityplus.png",
+        "description": "Competências: Controle de acesso, criptografia, teste de penetração, avaliação de vulnerabilidades, resposta a incidentes, segurança em redes, arquitetura zero trust, SIEM, MFA e segurança em nuvem."
+      },
+      {
         "degree": "Laboratórios Práticos em Segurança Ofensiva",
-        "institution": "HackTheBox",
+        "institution": "<a href=\"https://www.hackthebox.com/\">HackTheBox</a> & <a href=\"https://pwn.college/\">pwn.college</a>",
         "year": "2024 - Presente",
-        "img": "assets/img/hackthebox.png",
-        "description": "Hacking ético, exploração de vulnerabilidades web OWASP Top 10, ataques a redes Active Directory, técnicas de criptografia e engenharia reversa. Ferramentas: Nmap, BurpSuite, Metasploit, Hashcat, Ghidra, Wireshark."
-      },
-      {
-        "degree": "Desenvolvimento Full-Stack em JavaScript",
-        "institution": "The Odin Project",
-        "year": "2024 - 2025",
-        "img": "assets/img/odinproject.png",
-        "description": "Curso prático com projetos no <a href=\"https://github.com/matmarqs\">GitHub</a>.</br>Competências: HTML, CSS, JavaScript, Node.js/Express, React e PostgreSQL."
-      },
-      {
-        "degree": "Certificação Profissional Google Cybersecurity",
-        "institution": "Coursera <a href=\"https://coursera.org/verify/professional-cert/H459BRS392G7\">H459BRS392G7</a>",
-        "year": "2024",
-        "img": "assets/img/google-cyber.png",
-        "description": "Frameworks NIST e ISO 27001, gestão de identidade e acesso (IAM), redes e firewalls, vulnerabilidades e CVEs, resposta a incidentes, SIEM e IDS/IPS."
+        "img": "assets/img/hackthebox2.png",
+        "description": "Hacking ético, exploração de vulnerabilidades web (OWASP Top 10), ataques a redes Active Directory, técnicas de criptografia, exploits e engenharia reversa. Ferramentas: BurpSuite, Nmap, Metasploit, Hashcat, Ghidra, Wireshark."
       }
     ]
   }
-
 }

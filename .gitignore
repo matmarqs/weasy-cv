@@ -7,6 +7,8 @@ static/fontawesome/
 
 # ignore pdf files
 **/*.pdf
+# temporary html
+temp.html
 
 # Ignore python files
 

@@ -100,3 +100,9 @@ a {
   color: #0077cc;
   text-decoration: var(--color-link);
 }
+
+:not(li)>p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
