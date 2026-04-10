@@ -1,0 +1,75 @@
+{% if projects %}
+<div class="section">
+  <h3>{{ projects.header }}</h3>
+  {% for project in projects.list %}
+  <div class="project-item">
+    <div class="project-header">
+      <div class="project-title">
+        {% if project.github %}
+        <a href="{{ project.github }}" target="_blank" class="project-name-link">
+          {{ project.name }}
+          <i class="fab fa-github"></i>
+        </a>
+        {% else %}
+        <span class="project-name">{{ project.name }}</span>
+        {% endif %}        <span class="project-tech">{{ project.tech }}</span>
+      </div>
+      {% if project.description %}
+      <div class="project-description">{{ project.description }}</div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<style>
+  .project-item {
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 1px solid var(--color-light);
+  }
+
+  .project-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .project-title {
+    font-weight: 600;
+    color: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-bottom: 0;
+    font-size: var(--font-size-xs);
+  }
+
+  .project-link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .project-link:hover {
+    color: var(--color-primary);
+  }
+
+  .project-tech {
+    color: var(--color-secondary);
+    font-size: var(--font-size-xs);
+    font-family: monospace;
+    font-weight: normal;
+    margin-left: var(--spacing-xs);
+  }
+
+  .project-description {
+    color: var(--color-tertiary);
+    font-size: var(--font-size-xs);
+    line-height: 1.4;
+    margin-top: var(--spacing-xs);
+  }
+</style>

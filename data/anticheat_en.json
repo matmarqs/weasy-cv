@@ -1,0 +1,162 @@
+{
+  "name": "Mateus Marques",
+  "role": "Security Engineer | Reverse Engineer | Low-Level Systems | MSc in Physics",
+  "photo": "assets/img/mateus-hack.jpeg",
+  "contacts": [
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://linkedin.com/in/matmarqs",
+      "type": "LinkedIn",
+      "value": "in/matmarqs"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/matmarqs",
+      "type": "GitHub",
+      "value": "matmarqs"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:matmarqs@proton.me",
+      "type": "Email",
+      "value": "matmarqs@proton.me"
+    },
+    {
+      "icon": "fas fa-phone",
+      "href": "tel:+5511983710463",
+      "type": "Phone",
+      "value": "+55 (11) 98371-0463"
+    }
+  ],
+  "skills": {
+    "header": "SKILLS",
+    "list": [
+      "C",
+      "C++",
+      "Linux",
+      "Reverse Engineering",
+      "Ghidra",
+      "Assembly",
+      "Python",
+      "Git",
+      "Bash",
+      "Low-Level Programming",
+      "Malware Analysis",
+      "TCP/IP",
+      "Game Development (SDL2)",
+      "Web Pentesting",
+      "Docker",
+      "Advanced English"
+    ]
+  },
+  "strengths": {
+    "header": "STRENGTHS",
+    "list": [
+      "Problem Solving",
+      "Analytical Thinking",
+      "Fast Learner",
+      "Self-Directed",
+      "Team Collaboration",
+      "Clear Communication"
+    ]
+  },
+  "extras": {
+    "header": "ADDITIONAL",
+    "list": [
+      "Public Speaking Course - Vox2You 2024",
+      "TOEFL iBT 109/120 (2018)",
+      "Exchange Program - New York 2017"
+    ]
+  },
+  "hobbies": {
+    "header": "INTERESTS",
+    "list": [
+      "CTFs & Ethical Hacking",
+      "OS Internals Study",
+      "Open Source Community",
+      "Programming Challenges"
+    ]
+  },
+  "aboutme": {
+    "header": "ABOUT ME",
+    "text": "Cybersecurity professional with an MSc in Physics from USP, specializing in low-level systems and reverse engineering. Passionate about C, Linux, systems programming, and video game security research."
+  },
+  "experience": {
+    "header": "EXPERIENCE",
+    "list": [
+      {
+        "company": "G4F | State Government of Goiás",
+        "role": "Cybersecurity Analyst | Pentester",
+        "period": "Nov 2025 - Present",
+        "details": "Web pentesting (BurpSuite, Nmap, SQLMap, Python). Linux forensics and obfuscated malware analysis. Supported SIEM (Wazuh), GRC, and EDR (SentinelOne)."
+      },
+      {
+        "company": "Grupo Natureza",
+        "role": "Data Engineering Intern",
+        "period": "Mar 2025 - Oct 2025",
+        "details": "Data engineering with Python (API integration), PostgreSQL administration, GLPI tickets automation, JavaScript Full-Stack development with JavaScript and CI/CD with Jenkins."
+      }
+    ]
+  },
+  "education": {
+    "header": "EDUCATION",
+    "list": [
+      {
+        "degree": "MSc in Physics",
+        "institution": "University of São Paulo",
+        "year": "2023 - 2024",
+        "img": "assets/img/usp.jpg",
+        "description": "<a href=\"https://repositorio.usp.br/item/003247867\">Master Thesis</a> on Condensed Matter Physics. <a href=\"https://doi.org/10.1016/j.physb.2025.417515\">Published paper</a>."
+      },
+      {
+        "degree": "BSc in Physics",
+        "institution": "University of São Paulo",
+        "year": "2019 - 2022",
+        "img": "assets/img/usp.jpg",
+        "description": "Top 3 student (9.2/10)."
+      },
+      {
+        "degree": "Systems Analysis and Development",
+        "institution": "Faculdade Anhanguera",
+        "img": "assets/img/anhanguera.png",
+        "year": "2025 - Present"
+      }
+    ]
+  },
+  "certifications": {
+    "header": "CERTIFICATIONS",
+    "list": [
+      {
+        "degree": "CompTIA Security+ (SY0-701)",
+        "institution": "CompTIA <a href=\"https://www.credly.com/badges/159fd369-4d4d-4b4b-9bd4-4ab2752fb4c3/public_url\">120972649ad94583968420a0c9c2ae47</a>",
+        "year": "Jan 2026",
+        "img": "assets/img/comptia_securityplus.png",
+        "description": "Access control, cryptography, pentesting, incident response, SIEM, zero trust."
+      },
+      {
+        "degree": "Offensive Security Labs",
+        "institution": "<a href=\"https://www.hackthebox.com/\">HackTheBox</a> & <a href=\"https://pwn.college/\">pwn.college</a>",
+        "year": "2024 - Present",
+        "img": "assets/img/hackthebox2.png",
+        "description": "Reverse engineering, exploit development, OWASP Top 10, Active Directory."
+      }
+    ]
+  },
+  "projects": {
+    "header": "PROJECTS",
+    "list": [
+      {
+        "name": "matmarqs/sstank",
+        "tech": "C, SDL2",
+        "description": "Multiplayer 2D game with real-time physics and TCP client-server architecture in C.",
+        "github": "https://github.com/matmarqs/sstank"
+      },
+      {
+        "name": "matmarqs/ragrev",
+        "tech": "Ghidra, C, Assembly, Python",
+        "description": "Reverse engineered Ragnarok Online client (GameGuard bypass, packet analysis) with custom network proxy and analyzed eAthena server code.",
+        "github": "https://github.com/matmarqs/ragrev"
+      }
+    ]
+  }
+}

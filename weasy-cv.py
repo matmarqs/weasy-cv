@@ -11,7 +11,7 @@ FONTAWESOME = "assets/fontawesome/css/all.min.css"
 DEFAULT_OUTPUT = "resume.pdf"
 DEFAULT_HTML_OUTPUT = "temp.html"
 WATCH_EXTENSIONS = (".html", ".json", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg")
-IGNORE_DIRS = ["assets/fontawesome"]
+IGNORE_DIRS = ["assets/fontawesome", "temp.html"]
 
 class PDFBuilder(FileSystemEventHandler):
     def __init__(self, data_file: str, output_file: str, html_output: str = DEFAULT_HTML_OUTPUT) -> None:
@@ -53,7 +53,7 @@ class PDFBuilder(FileSystemEventHandler):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate PDF resume from JSON data')
-    parser.add_argument('--json', '-j', 
+    parser.add_argument('--json', '-j',
                        required=True,
                        help='Path to JSON data file (required)')
     parser.add_argument('--output', '-o',
