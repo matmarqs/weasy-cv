@@ -138,7 +138,7 @@
         "institution": "<a href=\"https://www.hackthebox.com/\">HackTheBox</a> & <a href=\"https://pwn.college/\">pwn.college</a>",
         "year": "2024 - Presente",
         "img": "assets/img/hackthebox2.png",
-        "description": "Hacking ético, exploração de vulnerabilidades web (OWASP Top 10), ataques a redes Active Directory, técnicas de criptografia, exploits e engenharia reversa. Ferramentas: BurpSuite, Nmap, Metasploit, Hashcat, Ghidra, Wireshark."
+        "description": "Hacking ético, exploração de vulnerabilidades web (OWASP Top 10), ataques a redes Active Directory, técnicas de criptografia, exploits e engenharia reversa. Ferramentas: BurpSuite, Nmap, Metasploit, Hashcat, Ghidra, Wireshark. <a href=\"https://profile.hackthebox.com/profile/019d91ee-669e-73c7-92d1-ceac99b3dc1\">Link do meu perfil HTB.</a>"
       }
     ]
   }

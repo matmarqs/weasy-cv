@@ -1,0 +1,145 @@
+{
+  "name": "Mateus Marques",
+  "role": "Cybersecurity Analyst | Pentester | Master's in Physics",
+  "photo": "assets/img/mateus-hack.jpeg",
+  "contacts": [
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://linkedin.com/in/matmarqs",
+      "type": "LinkedIn",
+      "value": "in/matmarqs"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/matmarqs",
+      "type": "GitHub",
+      "value": "matmarqs"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:matmarqs@proton.me",
+      "type": "Email",
+      "value": "matmarqs@proton.me"
+    },
+    {
+      "icon": "fas fa-phone",
+      "href": "tel:+5511983710463",
+      "type": "Phone",
+      "value": "+55 (11) 98371-0463"
+    }
+  ],
+  "aboutme": {
+    "header": "ABOUT ME",
+    "text": "Cybersecurity professional with a Master's in Physics from USP, specialized in pentesting. I apply analytical methodology to vulnerability exploitation and keep my expertise updated through continuous CTF studies."
+  },
+  "experience": {
+    "header": "PROFESSIONAL EXPERIENCE",
+    "list": [
+      {
+        "company": "G4F | Secretaria de Governo de Goiás (SGG)",
+        "role": "Cybersecurity Analyst | Pentester",
+        "period": "November 2025 - Present",
+        "details": "Blackbox and greybox web pentests (tools: BurpSuite, Nmap, Python, Bash, SQLMap, Nuclei), identification of high-impact vulnerabilities (RCE, SQLi, IDOR, XSS, CSRF), forensic analysis of Linux servers and obfuscated malware. Support in the implementation of Wazuh SIEM, GRC Ciso Assistant, and SentinelOne EDR monitoring."
+      },
+      {
+        "company": "Grupo Natureza",
+        "role": "Data Engineering Intern",
+        "period": "March 2025 - October 2025",
+        "details": "Data engineering with Python (API integration and system migration), PostgreSQL administration, GLPI ticket automation, web/mobile development with FastAPI, JavaScript, and AppSheet, and CI/CD with Jenkins."
+      }
+    ]
+  },
+  "skills": {
+    "header": "SKILLS",
+    "list": [
+      "Linux",
+      "C",
+      "Python",
+      "Pentest Web",
+      "BurpSuite",
+      "Nmap",
+      "Malware Analysis",
+      "Reverse Engineering",
+      "Assembly",
+      "TCP/IP",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Bash",
+      "Advanced English"
+    ]
+  },
+  "strengths": {
+    "header": "STRENGTHS",
+    "list": [
+      "Problem solving",
+      "Analytical thinking",
+      "Fast learner",
+      "Self-taught",
+      "Teamwork",
+      "Enthusiasm",
+      "Teaching skills"
+    ]
+  },
+  "extras": {
+    "header": "SUPPLEMENTARY",
+    "list": [
+      "Public Speaking Course - Vox2You 2024",
+      "English 109/120 - TOEFL iBT 2018",
+      "Exchange Program - New York 2017"
+    ]
+  },
+  "hobbies": {
+    "header": "HOBBIES",
+    "list": [
+      "Ethical hacking and CTFs",
+      "Study of operating systems",
+      "Open-source community",
+      "Programming challenges"
+    ]
+  },
+  "education": {
+    "header": "EDUCATION",
+    "list": [
+      {
+        "degree": "Technology Degree in Systems Analysis and Development",
+        "institution": "Faculdade Anhanguera",
+        "year": "2025 - Present",
+        "img": "assets/img/anhanguera.png"
+      },
+      {
+        "degree": "Master's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2023 - 2024",
+        "img": "assets/img/usp.jpg",
+        "description": "Emergent symmetries and topology in twisted bilayer graphene.</br>Thesis: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Published article: <a href=\"https://doi.org/10.1016/j.physb.2025.417515\">https://doi.org/10.1016/j.physb.2025.417515</a>."
+      },
+      {
+        "degree": "Bachelor's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2019 - 2022",
+        "img": "assets/img/usp.jpg",
+        "description": "Third-best student with a weighted average of 9.2/10. Also earned multiple medals in scientific olympiads, described on my <a href=\"https://linkedin.com/in/matmarqs\">LinkedIn</a>."
+      }
+    ]
+  },
+  "certifications": {
+    "header": "CERTIFICATIONS AND COURSES",
+    "list": [
+      {
+        "degree": "Comptia Security+ (SY0-701)",
+        "institution": "CompTIA <a href=\"https://www.credly.com/badges/159fd369-4d4d-4b4b-9bd4-4ab2752fb4c3/public_url\">120972649ad94583968420a0c9c2ae47</a>",
+        "year": "January 2026",
+        "img": "assets/img/comptia_securityplus.png",
+        "description": "Competencies: Access control, cryptography, penetration testing, vulnerability assessment, incident response, network security, zero trust architecture, SIEM, MFA, and cloud security."
+      },
+      {
+        "degree": "Hands-on Offensive Security Labs",
+        "institution": "<a href=\"https://www.hackthebox.com/\">HackTheBox</a> & <a href=\"https://pwn.college/\">pwn.college</a>",
+        "year": "2024 - Present",
+        "img": "assets/img/hackthebox2.png",
+        "description": "Ethical hacking, web vulnerability exploitation (OWASP Top 10), attacks on Active Directory networks, cryptographic techniques, exploits, and reverse engineering. Tools: BurpSuite, Nmap, Metasploit, Hashcat, Ghidra, Wireshark. <a href=\"https://profile.hackthebox.com/profile/019d91ee-669e-73c7-92d1-ceac99b3dcf1\">Link to my HTB Academy profile.</a>"
+      }
+    ]
+  }
+}
