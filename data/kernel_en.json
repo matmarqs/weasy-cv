@@ -1,0 +1,157 @@
+{
+  "name": "Mateus Marques",
+  "role": "Systems Programmer | Low-level C | Linux Internals",
+  "photo": "assets/img/mateus-hack.jpeg",
+  "contacts": [
+    {
+      "icon": "fab fa-linkedin",
+      "href": "https://linkedin.com/in/matmarqs",
+      "type": "LinkedIn",
+      "value": "in/matmarqs"
+    },
+    {
+      "icon": "fab fa-github",
+      "href": "https://github.com/matmarqs",
+      "type": "GitHub",
+      "value": "matmarqs"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "href": "mailto:matmarqs@proton.me",
+      "type": "Email",
+      "value": "matmarqs@proton.me"
+    },
+    {
+      "icon": "fas fa-phone",
+      "href": "tel:+5511983710463",
+      "type": "Phone",
+      "value": "+55 (11) 98371-0463"
+    }
+  ],
+  "aboutme": {
+    "header": "ABOUT ME",
+    "text": "Systems programmer with a Master's in Physics from the University of São Paulo (USP). I'm passionate about low-level C programming and Unix internals, and I'm currently studying kernel development by researching with NetBSD source code. I work as a cybersecurity analyst and have CTF experience in x86-64 assembly, reverse engineering, and exploits."
+  },
+  "experience": {
+    "header": "PROFESSIONAL EXPERIENCE",
+    "list": [
+      {
+        "company": "G4F | Secretaria de Governo de Goiás (SGG)",
+        "role": "Cybersecurity Analyst | Pentester",
+        "period": "November 2025 - Present",
+        "details": "Blackbox and greybox web pentests (Main tools: BurpSuite, Python, and Bash), identification of high-impact vulnerabilities (RCE, SQLi, IDOR, XSS, CSRF), forensic analysis of Linux servers and obfuscated malware. Support in the implementation of Wazuh SIEM, GRC Ciso Assistant, and SentinelOne EDR monitoring."
+      },
+      {
+        "company": "Grupo Natureza",
+        "role": "Data Engineering Intern",
+        "period": "March 2025 - October 2025",
+        "details": "Data engineering with Python (Web Scraping, API integrations, GLPI ticket automation), PostgreSQL administration, CI/CD with Jenkins, and basic JavaScript Full-Stack development."
+      }
+    ]
+  },
+  "skills": {
+    "header": "SKILLS",
+    "list": [
+      "C",
+      "Linux",
+      "GDB",
+      "x86-64",
+      "Git",
+      "Python",
+      "Bash",
+      "Cybersecurity",
+      "TCP/IP",
+      "Docker",
+      "Jenkins",
+      "English (fluent)"
+    ]
+  },
+  "strengths": {
+    "header": "STRENGTHS",
+    "list": [
+      "Analytical thinking",
+      "Fast learner",
+      "Self-taught",
+      "Debugging / Troubleshooting",
+      "Enthusiasm",
+      "Teamwork"
+    ]
+  },
+  "extras": {
+    "header": "SUPPLEMENTARY",
+    "list": [
+      "Public Speaking Course - Vox2You 2024",
+      "English 109/120 - TOEFL iBT 2018",
+      "Exchange Program - New York 2017"
+    ]
+  },
+  "hobbies": {
+    "header": "HOBBIES",
+    "list": [
+      "Emulation development (PSX)",
+      "Retro gaming",
+      "Unix systems",
+      "Low-level CTFs"
+    ]
+  },
+  "education": {
+    "header": "EDUCATION",
+    "list": [
+      {
+        "degree": "Master's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2023 - 2024",
+        "img": "assets/img/usp.jpg",
+        "description": "Emergent symmetries and topology in twisted bilayer graphene.</br>Thesis: <a href=\"https://doi.org/10.11606/D.43.2025.tde-25042025-190659\">https://doi.org/10.11606/D.43.2025.tde-25042025-190659</a>.</br>Published article: <a href=\"https://doi.org/10.1016/j.physb.2025.417515\">https://doi.org/10.1016/j.physb.2025.417515</a>."
+      },
+      {
+        "degree": "Bachelor's in Physics",
+        "institution": "University of São Paulo",
+        "year": "2019 - 2022",
+        "img": "assets/img/usp.jpg",
+        "description": "Third-best student, weighted average 9.2/10. Multiple <a href=\"https://www.linkedin.com/in/matmarqs/\">scientific olympiad medals</a>."
+      },
+      {
+        "degree": "Technology Degree in Systems Analysis and Development",
+        "institution": "Faculdade Anhanguera",
+        "year": "2025 - Present",
+        "img": "assets/img/anhanguera.png"
+      }
+    ]
+  },
+  "projects": {
+    "header": "PROJECTS",
+    "list": [
+      {
+        "name": "matmarqs/malisp",
+        "tech": "C, Lisp, Programming Languages",
+        "description": "A LISP-like interpreter from scratch with closures and basic memory management.",
+        "github": "https://github.com/matmarqs/malisp"
+      },
+      {
+        "name": "matmarqs/cpsx",
+        "tech": "C, MIPS Assembly, Emulation, Computer Architecture",
+        "description": "Work-in-progress PlayStation emulator with MIPS R3000A CPU, DMA, and GPU.",
+        "github": "https://github.com/matmarqs/cpsx"
+      },
+      {
+        "name": "matmarqs/apue",
+        "tech": "C, Unix, Operating Systems",
+        "description": "Study repository with code examples from Advanced Programming in the Unix Environment (APUE), focusing on Unix system calls and interfaces. Work in progress.",
+        "github": "https://github.com/matmarqs/apue"
+      }
+    ]
+  },
+  "certifications": {
+    "header": "CERTIFICATIONS",
+    "list": [
+      {
+        "degree": "Comptia Security+ (SY0-701)",
+        "institution": "CompTIA <a href=\"https://www.credly.com/badges/159fd369-4d4d-4b4b-9bd4-4ab2752fb4c3/public_url\">120972649ad94583968420a0c9c2ae47</a>",
+        "year": "January 2026",
+        "img": "assets/img/comptia_securityplus.png",
+        "description": "Cryptography, vulnerability assessment, incident response, and network security."
+      }
+    ]
+  }
+}
